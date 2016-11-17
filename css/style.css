@@ -22,6 +22,8 @@
 .animal-button {
     
     position: absolute; 
+    left: 10%;
+    top: 45%;
     background-color: #158ac4;
     border: none;
     color: white;
