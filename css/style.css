@@ -1,7 +1,34 @@
  
-header {
 
-    background-image: url('../content/ModernFarmer_Hero.jpg');    
-    background-size: cover;
- 
+.hero-image {
+    position: relative; 
+    
 }
+.learn-beekeeping {
+    
+    position: relative; 
+    max-width: 100%; 
+}
+
+.beekeeping-title {
+    
+    position: absolute; 
+    left: 10%;
+    top: 50%;
+    color: white; 
+    
+}
+
+.animal-button {
+    
+    position: absolute; 
+    background-color: #158ac4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
