@@ -165,6 +165,19 @@
 }
 
 
+/*****
+Faith's footer
+
+*****/
+
+.nav li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black; 
+}
+
 /**********************************
 
 Hero Image - before f'ing with media queries 
