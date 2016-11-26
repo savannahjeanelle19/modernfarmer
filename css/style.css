@@ -378,48 +378,4 @@ Faith's footer
 
 }
 
-/**********************************
 
-Hero Image - before f'ing with media queries 
-
-
-
-.hero-image {
-    position: relative; 
-    
-}
-.learn-beekeeping {
-    
-    position: relative; 
-    max-width: 100%; 
-}
-
-.beekeeping-title {
-    
-    position: absolute; 
-    left: 15%;
-    top: 50%;
-    color: white; 
-    font-size: 50px; 
-    font-family: 'Roboto', sans-serif;
-    
-}
-
-.animal-button {
-    
-    position: absolute; 
-    left: 15%;
-    top: 49%;
-    background-color: #158ac4;
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;  
-    font-family: 'Source Sans Pro', sans-serif;
-
-}
-
-**********************************/
