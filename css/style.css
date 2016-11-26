@@ -38,6 +38,73 @@
 
 }
 
+/*****
+Tim's CSS
+*****/
+
+.food1, .food2, .food3, 
+.sponsored1, .sponsored2, .sponsored3, 
+.lifestyle1, .lifestyle2, .lifestyle3, 
+.animals1, .animals2, .animals3, 
+.tech1, .tech2, .tech3, 
+.how1, .how2, .how3 {
+    position: relative;
+}
+
+.mainArticlePic {
+    position: relative;
+    width: 100%;
+}
+
+.sectionTitle {
+    position: absolute; 
+    left: 15%;
+    top: 5%;
+    background-color: #158ac4;
+    border: none;
+    color: white;
+    padding: 0.5% 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;  
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.secondaryArticlePic {
+    position: relative;
+    width: 100%;
+}
+
+.articleTitle, .articleTitleSecondary {
+    position: absolute; 
+    left: 15%;
+    top: 30%;
+    color: white; 
+    font-size: 4vw; 
+    font-family: 'Roboto', sans-serif;
+    max-width: 75%;
+}
+
+.articleDescription, .articleDescriptionSecondary {
+    position: absolute; 
+    left: 15%;
+    top: 70%;
+    color: white; 
+    font-size: 1.8vw; 
+    font-family: 'Roboto', sans-serif;
+    max-width: 75%;
+}
+
+.artAuthor, .artAuthorSecondary {
+    position: absolute; 
+    left: 15%;
+    top: 90%;
+    color: white; 
+    font-size: 1vw; 
+    font-family: 'Roboto', sans-serif;
+}
+
+/**********************************
 
 
 
@@ -52,6 +119,103 @@ Faith's footer
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
      
+}
+/********* Media Query (tim) *********/
+@media screen and (min-width: 1326px) {
+    
+    .row1, .row2, .row3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .mainArticlePic {
+        height: 300px;
+        width: 450px;
+        overflow: hidden;
+    }
+    .secondaryArticlePic {
+        height: 148px;
+        width: 200px;
+        justify-content: center;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-basis: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    .sectionTitle {
+        position: absolute; 
+        left: 15%;
+        top: 5%;
+        background-color: #158ac4;
+        border: none;
+        color: white;
+        padding: 0.5% 1%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1vw;  
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .articleTitle {
+        position: absolute; 
+        left: 15%;
+        top: 5%;
+        color: white; 
+        font-size: 1.5vw; 
+        font-family: 'Roboto', sans-serif;
+        max-width: 75%;
+    }
+    .articleDescription {
+        position: absolute; 
+        left: 15%;
+        top: 50%;
+        color: white; 
+        font-size: .8vw; 
+        font-family: 'Roboto', sans-serif;
+        max-width: 75%;
+    }
+    .artAuthor {
+        position: absolute; 
+        left: 15%;
+        top: 90%;
+        color: white; 
+        font-size: .5vw; 
+        font-family: 'Roboto', sans-serif;
+    }
+    .articleTitleSecondary {
+        position: absolute; 
+        left: 15%;
+        top: 5%;
+        color: white; 
+        font-size: .6vw; 
+        font-family: 'Roboto', sans-serif;
+        max-width: 75%;
+    }
+
+    .articleDescriptionSecondary {
+        position: absolute; 
+        left: 15%;
+        top: 40%;
+        color: white; 
+        font-size: .4vw; 
+        font-family: 'Roboto', sans-serif;
+        max-width: 75%;
+    }
+
+    .artAuthorSecondary {
+        position: absolute; 
+        left: 15%;
+        top: 80%;
+        color: white; 
+        font-size: .3vw; 
+        font-family: 'Roboto', sans-serif;
+    }
+
 }
 
 /**********************************
