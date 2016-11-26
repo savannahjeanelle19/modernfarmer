@@ -1,7 +1,167 @@
+/*NORMALIZE -- RANDALL*/
+body {
+  margin: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/*END NORMALIZE -- RANDALL*/
+
+
+
+
+
+/*NAVIGATION -- RANDALL*/
+
+div.menu{
+    background: rgba(0, 0, 0, .9);
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index 1000;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, .1);
+    margin-top: 0;
+}
+
+.navigation{
+    list-style: none;
+    background:rgba(0, 0, 0, .01);
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.navigation a{
+    display: block;
+    padding 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight:800;
+    color: #ccc;
+}
+
+.navigation li{
+    width: 60%;
+    margin: 0 auto;
+    padding-top 2%;
+    padding-bottom: 2%;
+    border-bottom: .2px solid rgba(255, 255, 255, .3);
+}
+
+.navigation li:last-of-type{
+    border-width: 0;
+}
+
+.navigation a:hover{
+    background-color: rgba(255, 255, 255, .9);
+    color: #000;
+}
+
+.menuButton{
+    display: none;
+}
+
+.menu .navigation{
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+label[for="menuButton"]{
+    display: inline-block;
+    float: right;
+    width: 60px;
+    height: 40px;
+    background-size: contain;
+    cursor: pointer;  
+}
+
+label[for="menuButton"]:after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 36px;
+    width: 15px;
+    height: 2.5px;
+    background: #fff;
+    box-shadow: 
+    0 0.3em 0 0 #fff,
+    0 0.6em 0 0 #fff;   
+}
+
+.menu .menuButton:checked ~ .navigation{
+    max-height: 100vh;
+}
+
+.home{
+    display: inline-block;
+    float: left;
+    background: #fff;
+    width: 75px;
+    height: 15px;
+    padding-bottom: 26px;
+    margin: 8px;
+}
+
+.header{
+    margin-top: 0;
+}
+
+.subscribe{
+    text-align: center;
+    background-color: darkseagreen;
+    width: 120px;
+    color: #fff;
+    padding: 12px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+/*END NAVIGATION -- RANDALL*/
+
+
+
+/*WRAPPER -- RANDALL*/
+
+.wrapper{
+    margin: 0;
+    margin-top: -20px;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    top 0;
+    left 0;
+    bottom 100%;
+}
+
+/*END WRAPPER -- RANDALL*/
+
+
 
 
 .hero-image {
     position: relative; 
+    z-index: -1;
     
 }
 .learn-beekeeping {
