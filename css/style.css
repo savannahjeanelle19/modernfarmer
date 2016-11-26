@@ -112,15 +112,25 @@ label[for="menuButton"]:after{
     max-height: 100vh;
 }
 
-.home{
+/* LOGO - Rob */
+.home {
     display: inline-block;
     float: left;
-    background: #fff;
-    width: 75px;
-    height: 15px;
-    padding-bottom: 26px;
-    margin: 8px;
 }
+
+
+.home img {
+    display: inline-block;
+    float: left;
+    width: 30vw;
+    height: auto;
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    padding-left: 10%; 
+    margin: 0 auto;
+}
+
+/* End LOGO - Rob */
 
 .header{
     margin-top: 0;
