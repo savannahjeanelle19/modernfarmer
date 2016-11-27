@@ -191,7 +191,7 @@ label[for="menuButton"]:after{
     
 }
 
-.animal-button a {
+.animal-button {
     
     position: absolute; 
     left: 15%;
