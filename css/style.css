@@ -208,6 +208,11 @@ label[for="menuButton"]:after{
 
 }
 
+.animal-button a {
+    color: white;
+    text-decoration: none;
+}
+
 /* End Hero Image -- Rob */
 
 /*****
