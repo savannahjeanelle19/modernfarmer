@@ -391,5 +391,24 @@ Faith's footer
     }
 
 }
+/* Savannah Dunlap - Sticky Header */
+.sticky {
+    background-color: black;
+    position: fixed;
+    color: white;
+    text-align: center;
+    padding: 0.5% 1%;
+    width: 12%;
+    height: auto;
+    font-size: 2vw;
+    margin-top: 30px;
+    margin-left: 50%;
+    z-index:10;
+    font-family: 'Roboto', sans-serif;
+    opacity: .8;
+    border-style: solid;
+    border-color: white;
+    border-width: .5px;
+}
 
 
